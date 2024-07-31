@@ -1,0 +1,3 @@
+/home/sakura/DoubleLens/build/_deps/tinyobjloader-subbuild/CMakeFiles/tinyobjloader-populate.dir
+/home/sakura/DoubleLens/build/_deps/tinyobjloader-subbuild/CMakeFiles/edit_cache.dir
+/home/sakura/DoubleLens/build/_deps/tinyobjloader-subbuild/CMakeFiles/rebuild_cache.dir

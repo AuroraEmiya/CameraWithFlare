@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/sakura/DoubleLens/build/_deps/embree_binary-subbuild/embree_binary-populate-prefix/src/embree_binary-populate-stamp/download-embree_binary-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/sakura/DoubleLens/build/_deps/embree_binary-subbuild/embree_binary-populate-prefix/src/embree_binary-populate-stamp/verify-embree_binary-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/sakura/DoubleLens/build/_deps/embree_binary-subbuild/embree_binary-populate-prefix/src/embree_binary-populate-stamp/extract-embree_binary-populate.cmake
+source_dir=/home/sakura/DoubleLens/build/_deps/embree_binary-src
+work_dir=/home/sakura/DoubleLens/build/_deps
+url(s)=https://github.com/embree/embree/releases/download/v3.13.5/embree-3.13.5.x86_64.linux.tar.gz
+hash=
+no_extract=
+
