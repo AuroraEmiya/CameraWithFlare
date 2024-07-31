@@ -12,6 +12,7 @@ Ray ThinlensCamera::generateRay(const Point2i &filmResolution, const Point2i &pi
     double y = (double)(pixelPosition.y + sample.xy.y) / filmResolution.y;
 
     Point3d pointOnFilm = sampleToFilm * Point3d(x, y, 0);
+    // printf("%f\n",pointOnFilm.z);
     Point3d pointOnFocalPlane = pointOnFilm * (focusDistance / pointOnFilm.z);
 
     Point2d pointOnDisk = apertureRadius * SquareToUniformDiskConcentric(sample.lens);

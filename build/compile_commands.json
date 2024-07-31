@@ -1,0 +1,536 @@
+[
+{
+  "directory": "/home/sakura/DoubleLens/build/ext",
+  "command": "/usr/bin/c++ -DMoer_ext_EXPORTS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -std=c++17 -fPIC -o CMakeFiles/Moer-ext.dir/ext.cpp.o -c /home/sakura/DoubleLens/ext/ext.cpp",
+  "file": "/home/sakura/DoubleLens/ext/ext.cpp",
+  "output": "ext/CMakeFiles/Moer-ext.dir/ext.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/_deps/tinyobjloader-build",
+  "command": "/usr/bin/c++  -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -std=c++17 -o CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.o -c /home/sakura/DoubleLens/build/_deps/tinyobjloader-src/tiny_obj_loader.cc",
+  "file": "/home/sakura/DoubleLens/build/_deps/tinyobjloader-src/tiny_obj_loader.cc",
+  "output": "_deps/tinyobjloader-build/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/ext/stb",
+  "command": "/usr/bin/c++ -Dstb_EXPORTS -I/home/sakura/DoubleLens/ext/stb -std=c++17 -fPIC -o CMakeFiles/stb.dir/stb.cpp.o -c /home/sakura/DoubleLens/ext/stb/stb.cpp",
+  "file": "/home/sakura/DoubleLens/ext/stb/stb.cpp",
+  "output": "ext/stb/CMakeFiles/stb.dir/stb.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/CoreLayer/Adapter/JsonUtil.cpp.o -c /home/sakura/DoubleLens/src/CoreLayer/Adapter/JsonUtil.cpp",
+  "file": "/home/sakura/DoubleLens/src/CoreLayer/Adapter/JsonUtil.cpp",
+  "output": "src/CMakeFiles/Moer.dir/CoreLayer/Adapter/JsonUtil.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/CoreLayer/ColorSpace/RGB3.cpp.o -c /home/sakura/DoubleLens/src/CoreLayer/ColorSpace/RGB3.cpp",
+  "file": "/home/sakura/DoubleLens/src/CoreLayer/ColorSpace/RGB3.cpp",
+  "output": "src/CMakeFiles/Moer.dir/CoreLayer/ColorSpace/RGB3.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/CoreLayer/ColorSpace/Spectrum.cpp.o -c /home/sakura/DoubleLens/src/CoreLayer/ColorSpace/Spectrum.cpp",
+  "file": "/home/sakura/DoubleLens/src/CoreLayer/ColorSpace/Spectrum.cpp",
+  "output": "src/CMakeFiles/Moer.dir/CoreLayer/ColorSpace/Spectrum.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/CoreLayer/ColorSpace/XYZ3.cpp.o -c /home/sakura/DoubleLens/src/CoreLayer/ColorSpace/XYZ3.cpp",
+  "file": "/home/sakura/DoubleLens/src/CoreLayer/ColorSpace/XYZ3.cpp",
+  "output": "src/CMakeFiles/Moer.dir/CoreLayer/ColorSpace/XYZ3.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/CoreLayer/Geometry/Angle.cpp.o -c /home/sakura/DoubleLens/src/CoreLayer/Geometry/Angle.cpp",
+  "file": "/home/sakura/DoubleLens/src/CoreLayer/Geometry/Angle.cpp",
+  "output": "src/CMakeFiles/Moer.dir/CoreLayer/Geometry/Angle.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/CoreLayer/Geometry/BoundingBox.cpp.o -c /home/sakura/DoubleLens/src/CoreLayer/Geometry/BoundingBox.cpp",
+  "file": "/home/sakura/DoubleLens/src/CoreLayer/Geometry/BoundingBox.cpp",
+  "output": "src/CMakeFiles/Moer.dir/CoreLayer/Geometry/BoundingBox.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/CoreLayer/Geometry/Matrix.cpp.o -c /home/sakura/DoubleLens/src/CoreLayer/Geometry/Matrix.cpp",
+  "file": "/home/sakura/DoubleLens/src/CoreLayer/Geometry/Matrix.cpp",
+  "output": "src/CMakeFiles/Moer.dir/CoreLayer/Geometry/Matrix.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/CoreLayer/Geometry/Transform3d.cpp.o -c /home/sakura/DoubleLens/src/CoreLayer/Geometry/Transform3d.cpp",
+  "file": "/home/sakura/DoubleLens/src/CoreLayer/Geometry/Transform3d.cpp",
+  "output": "src/CMakeFiles/Moer.dir/CoreLayer/Geometry/Transform3d.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/CoreLayer/Math/LowDiscrepancy.cpp.o -c /home/sakura/DoubleLens/src/CoreLayer/Math/LowDiscrepancy.cpp",
+  "file": "/home/sakura/DoubleLens/src/CoreLayer/Math/LowDiscrepancy.cpp",
+  "output": "src/CMakeFiles/Moer.dir/CoreLayer/Math/LowDiscrepancy.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/CoreLayer/Ray/Ray.cpp.o -c /home/sakura/DoubleLens/src/CoreLayer/Ray/Ray.cpp",
+  "file": "/home/sakura/DoubleLens/src/CoreLayer/Ray/Ray.cpp",
+  "output": "src/CMakeFiles/Moer.dir/CoreLayer/Ray/Ray.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Acceleration/Bvh.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Acceleration/Bvh.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Acceleration/Bvh.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Acceleration/Bvh.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Acceleration/Embree.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Acceleration/Embree.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Acceleration/Embree.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Acceleration/Embree.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Camera/CameraFactory.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Camera/CameraFactory.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Camera/CameraFactory.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Camera/CameraFactory.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Camera/DifferentialPinhole.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Camera/DifferentialPinhole.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Camera/DifferentialPinhole.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Camera/DifferentialPinhole.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Camera/DoubleLens.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Camera/DoubleLens.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Camera/DoubleLens.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Camera/DoubleLens.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Camera/Pinhole.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Camera/Pinhole.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Camera/Pinhole.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Camera/Pinhole.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Camera/Thinlens.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Camera/Thinlens.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Camera/Thinlens.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Camera/Thinlens.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Distribution/Distribution.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Distribution/Distribution.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Distribution/Distribution.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Distribution/Distribution.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Film/Film.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Film/Film.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Film/Film.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Film/Film.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Integrator/AbstractPathIntegrator.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Integrator/AbstractPathIntegrator.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Integrator/AbstractPathIntegrator.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Integrator/AbstractPathIntegrator.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Integrator/GuidedPathIntegrator.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Integrator/GuidedPathIntegrator.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Integrator/GuidedPathIntegrator.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Integrator/GuidedPathIntegrator.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Integrator/Integrator.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Integrator/Integrator.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Integrator/Integrator.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Integrator/Integrator.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Integrator/MonteCarloIntegrator.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Integrator/MonteCarloIntegrator.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Integrator/MonteCarloIntegrator.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Integrator/MonteCarloIntegrator.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Integrator/NormalIntegrator.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Integrator/NormalIntegrator.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Integrator/NormalIntegrator.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Integrator/NormalIntegrator.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Integrator/PathIntegrator-new.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Integrator/PathIntegrator-new.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Integrator/PathIntegrator-new.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Integrator/PathIntegrator-new.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Integrator/PathIntegrator.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Integrator/PathIntegrator.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Integrator/PathIntegrator.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Integrator/PathIntegrator.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Integrator/VolPathIntegrator.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Integrator/VolPathIntegrator.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Integrator/VolPathIntegrator.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Integrator/VolPathIntegrator.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Light/AreaLight.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Light/AreaLight.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Light/AreaLight.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Light/AreaLight.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Light/DiffuseAreaLight.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Light/DiffuseAreaLight.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Light/DiffuseAreaLight.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Light/DiffuseAreaLight.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Light/InfiniteSphereCapLight.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Light/InfiniteSphereCapLight.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Light/InfiniteSphereCapLight.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Light/InfiniteSphereCapLight.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Light/InfiniteSphereLight.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Light/InfiniteSphereLight.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Light/InfiniteSphereLight.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Light/InfiniteSphereLight.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Light/PointLight.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Light/PointLight.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Light/PointLight.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Light/PointLight.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/BumpMapMateiral.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/BumpMapMateiral.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/BumpMapMateiral.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/BumpMapMateiral.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/ComplexIor.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/ComplexIor.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/ComplexIor.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/ComplexIor.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/ConductorBxDF.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/ConductorBxDF.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/ConductorBxDF.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/ConductorBxDF.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/DielectricBxDF.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/DielectricBxDF.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/DielectricBxDF.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/DielectricBxDF.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/GlintBxDF.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/GlintBxDF.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/GlintBxDF.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/GlintBxDF.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/HairBXDF.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/HairBXDF.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/HairBXDF.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/HairBXDF.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/LambertainBxDF.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/LambertainBxDF.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/LambertainBxDF.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/LambertainBxDF.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/MicrofacetDistribution.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/MicrofacetDistribution.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/MicrofacetDistribution.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/MicrofacetDistribution.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/MirrorBxDF.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/MirrorBxDF.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/MirrorBxDF.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/MirrorBxDF.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/PlasticBxDF.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/PlasticBxDF.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/PlasticBxDF.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/PlasticBxDF.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/PorousLayerBxDF.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/PorousLayerBxDF.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/PorousLayerBxDF.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/PorousLayerBxDF.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/PorousLayerMicrograinBxDF.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/PorousLayerMicrograinBxDF.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/BxDF/PorousLayerMicrograinBxDF.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/BxDF/PorousLayerMicrograinBxDF.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/ConductorMaterial.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/ConductorMaterial.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/ConductorMaterial.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/ConductorMaterial.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/DielectricMaterial.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/DielectricMaterial.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/DielectricMaterial.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/DielectricMaterial.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/DisneyBSDF.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/DisneyBSDF.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/DisneyBSDF.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/DisneyBSDF.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/HairMaterial.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/HairMaterial.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/HairMaterial.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/HairMaterial.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/Material.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/Material.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/Material.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/Material.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/MaterialFactory.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/MaterialFactory.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/MaterialFactory.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/MaterialFactory.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/MatteMaterial.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/MatteMaterial.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/MatteMaterial.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/MatteMaterial.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/MirrorMaterial.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/MirrorMaterial.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/MirrorMaterial.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/MirrorMaterial.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/NormalMapMaterial.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/NormalMapMaterial.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/NormalMapMaterial.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/NormalMapMaterial.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/NullMaterial.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/NullMaterial.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/NullMaterial.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/NullMaterial.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/PlasticMaterial.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/PlasticMaterial.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/PlasticMaterial.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/PlasticMaterial.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Material/PorousLayerMicrograinMaterial.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Material/PorousLayerMicrograinMaterial.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Material/PorousLayerMicrograinMaterial.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Material/PorousLayerMicrograinMaterial.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Medium/Beerslaw.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Medium/Beerslaw.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Medium/Beerslaw.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Medium/Beerslaw.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Medium/HGPhase.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Medium/HGPhase.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Medium/HGPhase.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Medium/HGPhase.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Medium/Heterogeneous.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Medium/Heterogeneous.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Medium/Heterogeneous.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Medium/Heterogeneous.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Medium/Homogeneous.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Medium/Homogeneous.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Medium/Homogeneous.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Medium/Homogeneous.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Medium/IsotropicPhase.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Medium/IsotropicPhase.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Medium/IsotropicPhase.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Medium/IsotropicPhase.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Medium/MediumFactory.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Medium/MediumFactory.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Medium/MediumFactory.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Medium/MediumFactory.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Sampler/DirectSampler.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Sampler/DirectSampler.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Sampler/DirectSampler.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Sampler/DirectSampler.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Sampler/Halton.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Sampler/Halton.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Sampler/Halton.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Sampler/Halton.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Sampler/Sampler.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Sampler/Sampler.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Sampler/Sampler.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Sampler/Sampler.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Sampler/Stratified.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Sampler/Stratified.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Sampler/Stratified.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Sampler/Stratified.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Sampler/ZeroTwoSequence.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Sampler/ZeroTwoSequence.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Sampler/ZeroTwoSequence.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Sampler/ZeroTwoSequence.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Scene/Scene.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Scene/Scene.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Scene/Scene.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Scene/Scene.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Shape/Cube.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Shape/Cube.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Shape/Cube.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Shape/Cube.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Shape/Curve.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Shape/Curve.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Shape/Curve.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Shape/Curve.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Shape/Entity.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Shape/Entity.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Shape/Entity.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Shape/Entity.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Shape/EntityFactory.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Shape/EntityFactory.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Shape/EntityFactory.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Shape/EntityFactory.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Shape/Mesh.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Shape/Mesh.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Shape/Mesh.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Shape/Mesh.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Shape/Quad.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Shape/Quad.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Shape/Quad.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Shape/Quad.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Shape/Sphere.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Shape/Sphere.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Shape/Sphere.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Shape/Sphere.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Shape/Triangle.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Shape/Triangle.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Shape/Triangle.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Shape/Triangle.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Texture/ImageTexture.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Texture/ImageTexture.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Texture/ImageTexture.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Texture/ImageTexture.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Texture/ProceduralTexture.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Texture/ProceduralTexture.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Texture/ProceduralTexture.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Texture/ProceduralTexture.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/Texture/TextureMapping.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/Texture/TextureMapping.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/Texture/TextureMapping.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/Texture/TextureMapping.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/TileGenerator/SequenceTileGenerator.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/TileGenerator/SequenceTileGenerator.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/TileGenerator/SequenceTileGenerator.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/TileGenerator/SequenceTileGenerator.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/FunctionLayer/TileGenerator/TileGenerator.cpp.o -c /home/sakura/DoubleLens/src/FunctionLayer/TileGenerator/TileGenerator.cpp",
+  "file": "/home/sakura/DoubleLens/src/FunctionLayer/TileGenerator/TileGenerator.cpp",
+  "output": "src/CMakeFiles/Moer.dir/FunctionLayer/TileGenerator/TileGenerator.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/ResourceLayer/File/CurveIO.cpp.o -c /home/sakura/DoubleLens/src/ResourceLayer/File/CurveIO.cpp",
+  "file": "/home/sakura/DoubleLens/src/ResourceLayer/File/CurveIO.cpp",
+  "output": "src/CMakeFiles/Moer.dir/ResourceLayer/File/CurveIO.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/ResourceLayer/File/FileUtils.cpp.o -c /home/sakura/DoubleLens/src/ResourceLayer/File/FileUtils.cpp",
+  "file": "/home/sakura/DoubleLens/src/ResourceLayer/File/FileUtils.cpp",
+  "output": "src/CMakeFiles/Moer.dir/ResourceLayer/File/FileUtils.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/ResourceLayer/File/Image.cpp.o -c /home/sakura/DoubleLens/src/ResourceLayer/File/Image.cpp",
+  "file": "/home/sakura/DoubleLens/src/ResourceLayer/File/Image.cpp",
+  "output": "src/CMakeFiles/Moer.dir/ResourceLayer/File/Image.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/ResourceLayer/ResourceManager.cpp.o -c /home/sakura/DoubleLens/src/ResourceLayer/ResourceManager.cpp",
+  "file": "/home/sakura/DoubleLens/src/ResourceLayer/ResourceManager.cpp",
+  "output": "src/CMakeFiles/Moer.dir/ResourceLayer/ResourceManager.cpp.o"
+},
+{
+  "directory": "/home/sakura/DoubleLens/build/src",
+  "command": "/usr/bin/c++ -DCMAKE_DEF_SPECTRUM_SAMPLES=60 -DMESH_LOADER_TINYOBJ -I/home/sakura/DoubleLens/src -I/home/sakura/DoubleLens/ext/FastMath -I/home/sakura/DoubleLens/ext -I/home/sakura/DoubleLens/src/OpenMP_CXX_INCLUDE_DIRS -I/home/sakura/DoubleLens/build/_deps/tinyobjloader-src -I/home/sakura/DoubleLens/build/_deps/eigen-src -I/home/sakura/DoubleLens/ext/pcg/pcg-cpp/include -I/home/sakura/DoubleLens/ext/json/include -I/home/sakura/DoubleLens/ext/stb -isystem /home/sakura/DoubleLens/build/_deps/embree_binary-src/include  -fopenmp -std=c++17 -fopenmp -o CMakeFiles/Moer.dir/main.cpp.o -c /home/sakura/DoubleLens/src/main.cpp",
+  "file": "/home/sakura/DoubleLens/src/main.cpp",
+  "output": "src/CMakeFiles/Moer.dir/main.cpp.o"
+}
+]

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/sakura/DoubleLens/build/_deps/embree_binary-subbuild/CMakeFiles/embree_binary-populate"
+		},
+		{
+			"file" : "/home/sakura/DoubleLens/build/_deps/embree_binary-subbuild/CMakeFiles/embree_binary-populate.rule"
+		},
+		{
+			"file" : "/home/sakura/DoubleLens/build/_deps/embree_binary-subbuild/CMakeFiles/embree_binary-populate-complete.rule"
+		},
+		{
+			"file" : "/home/sakura/DoubleLens/build/_deps/embree_binary-subbuild/embree_binary-populate-prefix/src/embree_binary-populate-stamp/embree_binary-populate-build.rule"
+		},
+		{
+			"file" : "/home/sakura/DoubleLens/build/_deps/embree_binary-subbuild/embree_binary-populate-prefix/src/embree_binary-populate-stamp/embree_binary-populate-configure.rule"
+		},
+		{
+			"file" : "/home/sakura/DoubleLens/build/_deps/embree_binary-subbuild/embree_binary-populate-prefix/src/embree_binary-populate-stamp/embree_binary-populate-download.rule"
+		},
+		{
+			"file" : "/home/sakura/DoubleLens/build/_deps/embree_binary-subbuild/embree_binary-populate-prefix/src/embree_binary-populate-stamp/embree_binary-populate-install.rule"
+		},
+		{
+			"file" : "/home/sakura/DoubleLens/build/_deps/embree_binary-subbuild/embree_binary-populate-prefix/src/embree_binary-populate-stamp/embree_binary-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/sakura/DoubleLens/build/_deps/embree_binary-subbuild/embree_binary-populate-prefix/src/embree_binary-populate-stamp/embree_binary-populate-patch.rule"
+		},
+		{
+			"file" : "/home/sakura/DoubleLens/build/_deps/embree_binary-subbuild/embree_binary-populate-prefix/src/embree_binary-populate-stamp/embree_binary-populate-test.rule"
+		},
+		{
+			"file" : "/home/sakura/DoubleLens/build/_deps/embree_binary-subbuild/embree_binary-populate-prefix/src/embree_binary-populate-stamp/embree_binary-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"embree_binary-populate"
+		],
+		"name" : "embree_binary-populate"
+	}
+}
