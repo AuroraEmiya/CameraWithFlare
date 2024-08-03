@@ -53,7 +53,16 @@ public:
     void reflection()
     {
         reflect_dir = normalize(incident_dir - 2 * dot(incident_dir, N) * N);
+        // printf("N:\t\t");
+        // Vprint(N);
+        // printf("origin:\t\t");
+        // Vprint(incident_dir);
+        // printf("reflection:\t");
+        // Vprint(reflect_dir);
+        // assert(dot(N,reflect_dir)+dot(N,incident_dir)<0.000001);
+
     }
+
     Vec3d get_reflect_dir()
     {
         return this->reflect_dir;
@@ -75,7 +84,7 @@ public:
     {
         return this->R;
     }
-
+ 
 private:
     Point3d intersection_point;
     Vec3d incident_dir;

@@ -61,34 +61,36 @@ void MonteCarloIntegrator::renderPerThread(std::shared_ptr<Scene> scene)
             ssampler->startPixel(pixelPosition);
             for (int i = 0; i < spp; i++)
             {
-                Ray ray = cam.generateRay(
-                    film->getResolution(),
-                    pixelPosition,
-                    ssampler->getCameraSample());
-
-                auto L = Li(ray, scene);
-                double descend_rate = 1;
-                double R = 0.1;
-                Point2i Flare_pixelPosition;
-                // printf("ray trace starts\n");
-                cam.rayTraceThroughLens(ray, film->getResolution(), descend_rate, R, Flare_pixelPosition);
-                // printf("start deposit transmitted ray\n");
-                // printf("decend_rate:%f,R:%f\n",descend_rate,R);
-                if (R > 0)
+                Ray ray = cam.generateRay(film->getResolution(), pixelPosition, ssampler->getCameraSample());
+                if (!(ray.direction.x == 0 && ray.direction.y == 0 && ray.direction.z == 0))
                 {
-                    assert(R <= 1);
+
+                    auto L = Li(ray, scene);
+                    double descend_rate = 1;
+                    double R = 0;
+                    Point2i Flare_pixelPosition;
+
+                    cam.rayTraceThroughLens(ray, film->getResolution(), descend_rate, R, Flare_pixelPosition);
+
                     film->deposit(pixelPosition, L * descend_rate);
+                    if (R > 0)
+                    {
+                        // printf("(%d,%d)/(%d,%d),R:%f\n",Flare_pixelPosition.x,Flare_pixelPosition.y,pixelPosition.x,pixelPosition.y,R);
+                        // assert(R <= 1);
+                        // assert(Flare_pixelPosition.x / film->getResolution().x < 1);
+                        // assert(Flare_pixelPosition.y / film->getResolution().y < 1);
+                        film->deposit(Flare_pixelPosition, L * R);
+                    }
+                    // film->deposit(pixelPosition, L);
+                    // printf("start deposit reflected ray\n");
+                    /**
+                     * @warning spp used in this for loop belongs to Integrator.
+                     *          It is irrelevant with spp passed to Sampler.
+                     *          And Sampler has no sanity check for subscript
+                     *          of sample vector. Error may occur if spp passed to
+                     *          Integrator is bigger than which passed to Sampler.
+                     */
                 }
-                // film->deposit(pixelPosition, L);
-                // printf("start deposit reflected ray\n");
-                // film->deposit(Flare_pixelPosition, L * R);
-                /**
-                 * @warning spp used in this for loop belongs to Integrator.
-                 *          It is irrelevant with spp passed to Sampler.
-                 *          And Sampler has no sanity check for subscript
-                 *          of sample vector. Error may occur if spp passed to
-                 *          Integrator is bigger than which passed to Sampler.
-                 */
                 ssampler->nextSample();
             }
         }

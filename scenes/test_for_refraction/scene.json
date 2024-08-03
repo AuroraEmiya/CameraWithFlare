@@ -1,0 +1,56 @@
+{
+    "mediums": [],
+    "materials": [],
+    "entities": [
+        {
+            "type": "sphere",
+            "center": [
+                1.5,
+                1.5,
+                1
+            ],
+            "radius": 0.2,
+            "emission": [
+                80,
+                80,
+                80
+            ]
+        }
+    ],
+    "camera": {
+        "type": "doublelens",
+        "resolution": [
+            512,
+            512
+        ],
+        "fov": 45,
+        "aperture_radius_0": 2,
+        "aperture_radius_1": 2,
+        "focus_distance_0": 5,
+        "focus_distance_1": 5,
+        "distance_between": 1,
+        "refractive_index_air":1.0,
+        "refractive_index_leb":1.5,
+        "transform": {
+            "position": [
+                0,
+                0,
+                -5
+            ],
+            "up": [
+                0,
+                1,
+                0
+            ],
+            "look_at": [
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "renderer": {
+        "output_file": "sphere",
+        "spp": 20
+    }
+}

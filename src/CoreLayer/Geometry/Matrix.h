@@ -61,17 +61,26 @@ public:
 	Matrix4x4 inverse() const;
 	Matrix4x4 transpose() const;
 	//
-	Eigen::Matrix3d get3x3() const
-	{
-		Eigen::Matrix3d _matrix;
-		for(int i=0;i<3;i++){
-			for(int j=0;j<3;j++){
-				_matrix(i,j) = matrix(i,j);
+	// Eigen::Matrix3d get3x3() const
+	// {
+	// 	Eigen::Matrix3d _matrix;
+	// 	for(int i=0;i<3;i++){
+	// 		for(int j=0;j<3;j++){
+	// 			_matrix(i,j) = matrix(i,j);
+	// 			// printf("_matrix:(%f)\n",_matrix(i,j));
+	// 		}
+	// 	}
+	// 	return _matrix;
+	// }
+	void printMatrix(){
+		for(int i=0;i<4;i++){
+			printf("|");
+			for(int j=0;j<4;j++){
+				printf(" %f ",matrix(i,j));
 			}
+			printf("|\n");
 		}
-		return _matrix;
 	}
-	friend void printMatrix(const Matrix4x4 &mat);
 	double *getTransformData();
 };
 
